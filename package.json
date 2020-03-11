@@ -1,7 +1,18 @@
 {
   "name": "react-boilerplate",
   "version": "0.1.0",
+  "description": "A lightweight boilerplate for frontend services using React, Redux, and Sass.",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AreaFiftyTwo/react-boilerplate.git"
+  },
+  "author": "Michael McManus, Grace Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AreaFiftyTwo/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/AreaFiftyTwo/react-boilerplate#readme",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
