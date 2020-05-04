@@ -1,35 +1,8 @@
 // abstracts
+@import 'scss/abstracts/breakpoints';
 @import 'scss/abstracts/vars';
 
 // base
 @import 'scss/base/reset';
+@import 'scss/base/typography';
 
-// breakpoints
-@include breakpoints(
-  (
-    xlarge: (
-      1281px,
-      1680px,
-    ),
-    large: (
-      981px,
-      1280px,
-    ),
-    medium: (
-      737px,
-      980px,
-    ),
-    small: (
-      481px,
-      736px,
-    ),
-    xsmall: (
-      361px,
-      480px,
-    ),
-    xxsmall: (
-      null,
-      360px,
-    ),
-  )
-);

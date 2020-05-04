@@ -7,11 +7,11 @@ import user from './user';
 const middlewares = [thunkMiddleware];
 
 if (process.env.NODE_ENV === `development`) {
-  loggerMiddleware = createLogger({ collapsed: true });
+  const loggerMiddleware = createLogger({ collapsed: true });
   middlewares.push(loggerMiddleware);
 }
 
-const reducer = combineReducers({ user, portfolio, transactions });
+const reducer = combineReducers({ user });
 const middleware = composeWithDevTools(
   applyMiddleware(...middlewares)
 )
